@@ -27,7 +27,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - gemmi
     - ispyb
@@ -37,7 +37,7 @@ requirements:
     - pandas
     - pillow
     - plotly
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
