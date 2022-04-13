@@ -9,8 +9,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ pypi[0] }}/{{ pypi }}/relion-{{ version }}.tar.gz
   sha256: aafacd86ee29f5d18ad9aab12b6598615fc90bcc126592f09e635faa4ecbb724
-  patches:
-    - 0001-ccpem-pipeliner.patch
 
 build:
   number: 0
